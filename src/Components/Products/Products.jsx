@@ -8,15 +8,9 @@ import image1 from '../../images/Running Shoes.jpg';
 import image2 from '../../images/laptop.jpg';
 import image3 from '../../images/headphones.jpg';
 
-const products =[
 
-     {id: 1, name: 'Shoes', description: 'Running Shoes.', price: '$55', image:image1},
-     {id: 2, name: 'Asus Laptop', description: 'Gaming Laptop.', price: '$500', image: image2 },
-     {id: 3, name: 'Headphones', description: 'Gaming Headphones.', price: '$50', image: image3 },
 
-];
-
-const Products = () =>{
+const Products = ({ products }) =>{
     const classes = useStyles();
     
     return(
